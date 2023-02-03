@@ -226,8 +226,8 @@ const libraryOne = [
     
     // Render library on first load
     window.onload = () => {
-        selectedLib = libraryOne;
-        createPads(libraryOne);
+        selectedLib = libraryThree;
+        createPads(libraryThree);
     };
     // Render libraries on click
     libOne.onclick = () => {
